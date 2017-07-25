@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide:400,700');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+/*font-family: 'Audiowide', cursive;*/
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Exo 2', sans-serif;*/
+
+* {margin: 0px;
+padding:0px;
+box-sizing:border-box;
+border:0px;}
+
+.top-bar{height:75px;
+background-color: #2D3A3A;
+color:#FFFBFC;
+font-family: 'Exo 2', sans-serif;
+font-size:24px;}
+
+body{display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: center;
+background-color:#767777;
+}
+
+footer{display: block;
+background-color: #2D3A3A;
+color: #FFFBFC;
+text-align: center;
+font-family: 'Exo 2', sans-serif;
+font-size: medium;
+padding: 20px;
+width: 100%;
+border-top: thick double #ff0000;
+border-style: solid;
+}
+
+i {cursor: pointer;}
+
+.logo{font-family: 'Audiowide', cursive;
+background-color: #2D3A3A;
+color:#FFFBFC;
+text-align: center;
+padding-top: 15px;
+width:100vw;}
+
+.navigation-group{
+position:fixed;
+background-color: #FD8A5E;
+top:0;
+width:100%;
+font-weight: bold;
+font-size: 125%;
+z-index:1000;
+border-bottom: thick double #ff0000;
+border-style: solid;
+}
+
+.top-bar li {list-style: none;}
+
+.top-bar ul{display:flex;
+justify-content:space-around;
+align-items:baseline;
+padding-top: 21px;}
+
+.top-bar ul li ul {display: none;}
+
+.top-bar ul li:hover ul {display: block;
+background-color: #D8B4A0;
+position: absolute;}
+
+.top-bar > ul > li {padding-right:10px;
+}
+
+.top-bar > ul > li:hover {background-color:#D8B4A0;
+  padding-right:17px;
+}
+
+.top-bar ul li ul li {margin:10px;}
+
+.icon{padding: 10px;}
+
+.terms-conditions:hover{padding: 5px;
+cursor: pointer;
+text-decoration: underline;
+color: #D8B4A0;}
+
+.half-item {display: flex;
+flex-wrap: no-wrap;
+width: 100%;
+height: 300px;
+padding: 10px;
+align-items: center;
+flex-direction: column;
+justify-content: flex-start;
+background-size: cover;
+background-image: url(../images/storefront.jpg);
+background-position: center center;
+margin: auto 10px;
+margin-top: 145px;
+}
+
+.product-top-image {display: flex;
+flex-wrap: no-wrap;
+width: 100%;
+height: 300px;
+padding: 10px;
+align-items: center;
+flex-direction: column;
+justify-content: flex-start;
+background-size: cover;
+background-image: url(../images/storefront.jpg);
+background-position: center center;
+margin: auto 10px;
+margin-top: 145px;
+margin-bottom:-115px;
+}
+
+.quarter-item {display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+width: 48%;
+height: 400px;
+margin: 7px;
+background-color: white;
+text-align: center;
+flex-direction: column;
+justify-content: center;
+align-items: strech;}
+
+.body-font {font-family: 'Open Sans', sans-serif;}
+
+.term-box {width:90%;
+color:#FFFBFC;
+font-family: 'Open Sans', sans-serif;
+padding:10px 10px 15px 10px;}
+
+.product-text {color:#FFFBFC;
+font-family: 'Open Sans', sans-serif;
+padding-top: 150px;
+margin-top: -150px;
+margin-bottom: 150px;
+}
+
+.header{border: 5px solid #FFFBFC;
+color: #FFFBFC;
+padding: 10px;
+margin: 10px 0px 5px 0px;
+font-family: 'Open Sans', sans-serif;}
+
+.map{center: new google.maps.LatLng(40.693512, -73.983983), zoom: 20, mapTypeId: google.maps.MapTypeId.HYBRID}
+
+.card {width: 500px;
+height: 500px;
+margin: 10px;
+background-color: #D8B4A0;}
+
+
+.card-container {margin: 10px;
+height: 400px;
+width: 400px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+background-color: #D8B4A0;}
+
+.photo-card {height:300px;
+padding:10px;
+display:flex;
+align-items:stretch;
+}
+
+.home-1{background-image: url(../images/brown-shoes.jpg);}
+.home-2{background-image: url(../images/women-style.jpg);}
+.home-3{background-image: url(../images/men-style.jpg);}
+.home-4{background-image: url(../images/brooklyn-run.jpg);}
+
+.men-1{background-image: url(../images/men/grey-sneakers.jpg)}
+.men-2{background-image: url(../images/men/ian-robinson.jpg)}
+.men-3{background-image: url(../images/men/joshua-stannard.jpg)}
+.men-4{background-image: url(../images/men/men_sneaker1.jpg)}
+.men-5{background-image: url(../images/men/mens_casual.jpg)}
+.men-6{background-image: url(../images/men/walk-on-air.jpg)}
+
+.women-1{background-image: url(../images/women/do-not-know-what-it-says.jpg)}
+.women-2{background-image: url(../images/women/forget-me-nots.jpg)}
+.women-3{background-image: url(../images/women/high-heels.jpg)}
+.women-4{background-image: url(../images/women/its-on.jpg)}
+.women-5{background-image: url(../images/women/last-image.jpg)}
+.women-6{background-image: url(../images/women/sneaker.jpg)}
+
+.top-line {margin-bottom:40px;
+  margin-top: 15px;
+}
+
+.home-row {display:flex;
+margin-bottom: 15px;
+width:100vw;
+margin:auto 10px;
+align-content:row;}
+
+.image-row {flex-wrap:wrap;
+justify-content:space-around;
+}
+
+.negative-row {margin-bottom: -115px;}
+
+.third {width:30%;}
+.half {width:50%}
+.quarter {width:25%;
+    height:400px;
+}
+.seventyfive {width:75%;
+    height:400px;
+}
+
+.card-content {width:100%;
+background-size: cover;
+background-position: center top;
+padding:5px;
+display:flex;
+align-items:flex-end;}
+
+.sub {background-color: rgba(253,138,94,.7);
+width: 100%;
+padding: 2px;
+margin-top:2%;
+font-family: 'Open Sans', sans-serif;
+}
+
+.left-align {text-align: left;}
+
+.right-align {text-align:right;}
+
+.center-align {text-align:center;}
+
+.justify-align {text-align:justify;}
+
+a:link {color: #FFFBFC;}
+
+ol.in {list-style-position: inside;}
+
+.hero-text {
+  text-align: justify;
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(38,38,38,.7);
+  margin: 5px;
+  padding:15px;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: justify;
+  cursor: pointer;
+  margin-top:10px;
+}
+
+.hero-text button:hover {
+  background-color: #D8B4A0;
+  color: white;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color:lightgrey;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.left-padding {padding-left:0px;}
+.right-padding {padding-right:0px;}
+
+a:visited {
+    color: #FFFBFC;
+}
